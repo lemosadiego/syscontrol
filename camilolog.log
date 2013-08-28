@@ -1,0 +1,178 @@
+2013-08-28 00:23:50,105 [AWT-EventQueue-0] DEBUG org.apache.commons.digester.Digester:1343 -   Fire end() for SetNextRule[methodName=setSummary, paramType=net.sf.jasperreports.engine.JRBand]
+2013-08-28 00:23:50,105 [AWT-EventQueue-0] DEBUG org.apache.commons.digester.Digester:198 - [SetNextRule]{jasperReport/summary/band} Call net.sf.jasperreports.engine.design.JasperDesign.setSummary(net.sf.jasperreports.engine.design.JRDesignBand@3c74c144)
+2013-08-28 00:23:50,106 [AWT-EventQueue-0] DEBUG org.apache.commons.digester.Digester:1343 -   Fire end() for FactoryCreateRule[className=net.sf.jasperreports.engine.xml.JRBandFactory, attributeName=null, creationFactory=net.sf.jasperreports.engine.xml.JRBandFactory@16e3a921]
+2013-08-28 00:23:50,107 [AWT-EventQueue-0] DEBUG org.apache.commons.digester.Digester:434 - [FactoryCreateRule]{jasperReport/summary/band} Pop net.sf.jasperreports.engine.design.JRDesignBand
+2013-08-28 00:23:50,108 [AWT-EventQueue-0] DEBUG org.apache.commons.digester.Digester.sax:1412 - ignorableWhitespace(
+	)
+2013-08-28 00:23:50,108 [AWT-EventQueue-0] DEBUG org.apache.commons.digester.Digester.sax:1287 - endElement(http://jasperreports.sourceforge.net/jasperreports,summary,summary)
+2013-08-28 00:23:50,109 [AWT-EventQueue-0] DEBUG org.apache.commons.digester.Digester:1290 -   match='jasperReport/summary'
+2013-08-28 00:23:50,109 [AWT-EventQueue-0] DEBUG org.apache.commons.digester.Digester:1291 -   bodyText=''
+2013-08-28 00:23:50,109 [AWT-EventQueue-0] DEBUG org.apache.commons.digester.Digester:1326 -   No rules found matching 'jasperReport/summary'.
+2013-08-28 00:23:50,112 [AWT-EventQueue-0] DEBUG org.apache.commons.digester.Digester:1333 -   Popping body text ''
+2013-08-28 00:23:50,113 [AWT-EventQueue-0] DEBUG org.apache.commons.digester.Digester.sax:1412 - ignorableWhitespace(
+)
+2013-08-28 00:23:50,113 [AWT-EventQueue-0] DEBUG org.apache.commons.digester.Digester.sax:1287 - endElement(http://jasperreports.sourceforge.net/jasperreports,jasperReport,jasperReport)
+2013-08-28 00:23:50,113 [AWT-EventQueue-0] DEBUG org.apache.commons.digester.Digester:1290 -   match='jasperReport'
+2013-08-28 00:23:50,114 [AWT-EventQueue-0] DEBUG org.apache.commons.digester.Digester:1291 -   bodyText=''
+2013-08-28 00:23:50,114 [AWT-EventQueue-0] DEBUG org.apache.commons.digester.Digester:1313 -   Fire body() for FactoryCreateRule[className=net.sf.jasperreports.engine.xml.JasperDesignFactory, attributeName=null, creationFactory=net.sf.jasperreports.engine.xml.JasperDesignFactory@153c765e]
+2013-08-28 00:23:50,115 [AWT-EventQueue-0] DEBUG org.apache.commons.digester.Digester:1313 -   Fire body() for SetNextRule[methodName=setJasperDesign, paramType=net.sf.jasperreports.engine.design.JasperDesign]
+2013-08-28 00:23:50,115 [AWT-EventQueue-0] DEBUG org.apache.commons.digester.Digester:1333 -   Popping body text ''
+2013-08-28 00:23:50,115 [AWT-EventQueue-0] DEBUG org.apache.commons.digester.Digester:1343 -   Fire end() for SetNextRule[methodName=setJasperDesign, paramType=net.sf.jasperreports.engine.design.JasperDesign]
+2013-08-28 00:23:50,116 [AWT-EventQueue-0] DEBUG org.apache.commons.digester.Digester:198 - [SetNextRule]{jasperReport} Call net.sf.jasperreports.engine.xml.JRXmlLoader.setJasperDesign(net.sf.jasperreports.engine.design.JasperDesign@347f2036)
+2013-08-28 00:23:50,121 [AWT-EventQueue-0] DEBUG org.apache.commons.digester.Digester:1343 -   Fire end() for FactoryCreateRule[className=net.sf.jasperreports.engine.xml.JasperDesignFactory, attributeName=null, creationFactory=net.sf.jasperreports.engine.xml.JasperDesignFactory@153c765e]
+2013-08-28 00:23:50,121 [AWT-EventQueue-0] DEBUG org.apache.commons.digester.Digester:434 - [FactoryCreateRule]{jasperReport} Pop net.sf.jasperreports.engine.design.JasperDesign
+2013-08-28 00:23:50,121 [AWT-EventQueue-0] DEBUG org.apache.commons.digester.Digester.sax:1378 - endPrefixMapping()
+2013-08-28 00:23:50,122 [AWT-EventQueue-0] DEBUG org.apache.commons.digester.Digester.sax:1378 - endPrefixMapping(xsi)
+2013-08-28 00:23:50,122 [AWT-EventQueue-0] DEBUG org.apache.commons.digester.Digester.sax:1238 - endDocument()
+2013-08-28 00:23:51,670 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRBaseFiller:348 - Fill 1: created for PedidoReport
+2013-08-28 00:23:51,694 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand:154 - Origin {reportName: null, groupName: null,bandType: BACKGROUND} for band 378778923
+2013-08-28 00:23:51,702 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand:154 - Origin {reportName: null, groupName: null,bandType: TITLE} for band 843745660
+2013-08-28 00:23:51,716 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand:154 - Origin {reportName: null, groupName: null,bandType: PAGE_HEADER} for band 700338492
+2013-08-28 00:23:51,716 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand:154 - Origin {reportName: null, groupName: null,bandType: COLUMN_HEADER} for band 1040741376
+2013-08-28 00:23:51,717 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand:154 - Origin {reportName: null, groupName: null,bandType: DETAIL} for band 1414937794
+2013-08-28 00:23:51,717 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand:154 - Origin {reportName: null, groupName: null,bandType: COLUMN_FOOTER} for band 1548978993
+2013-08-28 00:23:51,717 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand:154 - Origin {reportName: null, groupName: null,bandType: PAGE_FOOTER} for band 1543347017
+2013-08-28 00:23:51,718 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller:135 - Filler 1 - pageHeight: 842, columnFooterOffsetY: 729, lastPageColumnFooterOffsetY: 822
+2013-08-28 00:23:51,719 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRBaseFiller:862 - Fill 1: filling report
+2013-08-28 00:23:51,721 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillDataset:1080 - Fill 1: Creating sql query executer
+2013-08-28 00:23:51,725 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.query.JRJdbcQueryExecuter:254 - SQL query string: SELECT S.DESCRICAO, S.GARANTIA, I.VALOR FROM SERVICO S,ITEMPEDIDO I WHERE I.IDSERVICO = S.IDSERVICO AND I.IDPEDIDO = ?
+2013-08-28 00:23:51,725 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.query.JRJdbcQueryExecuter:396 - Parameter #1 (IDPEDIDO of type java.lang.Long): 5
+2013-08-28 00:23:51,734 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRBaseFiller:1797 - Fill 1: adding page 1
+2013-08-28 00:23:51,735 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller:330 - Fill 1: title at 20
+2013-08-28 00:23:51,746 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateImage@281c35ec
+2013-08-28 00:23:51,748 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller:406 - Fill 1: page header at 128
+2013-08-28 00:23:51,763 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper:300 - creating element font infos cache of size 2000
+2013-08-28 00:23:51,791 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateRectangle@4d68af51
+2013-08-28 00:23:51,793 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateText@3f2a09d5
+2013-08-28 00:23:51,794 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateText@27ecfcd9
+2013-08-28 00:23:51,794 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@3f2a09d5 for object net.sf.jasperreports.engine.fill.JRTemplateText@37cc1f09
+2013-08-28 00:23:51,795 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateText@3a09a47d
+2013-08-28 00:23:51,796 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateLine@4de5ed7b
+2013-08-28 00:23:51,797 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateText@213e2b4a
+2013-08-28 00:23:51,797 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@213e2b4a for object net.sf.jasperreports.engine.fill.JRTemplateText@788c1852
+2013-08-28 00:23:51,797 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@213e2b4a for object net.sf.jasperreports.engine.fill.JRTemplateText@3590ed52
+2013-08-28 00:23:51,798 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@213e2b4a for object net.sf.jasperreports.engine.fill.JRTemplateText@3dccbdf7
+2013-08-28 00:23:51,798 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@213e2b4a for object net.sf.jasperreports.engine.fill.JRTemplateText@4ccbc2d3
+2013-08-28 00:23:51,842 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@213e2b4a for object net.sf.jasperreports.engine.fill.JRTemplateText@5563d208
+2013-08-28 00:23:51,843 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@213e2b4a for object net.sf.jasperreports.engine.fill.JRTemplateText@c723704
+2013-08-28 00:23:51,843 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@213e2b4a for object net.sf.jasperreports.engine.fill.JRTemplateText@1e79edfe
+2013-08-28 00:23:51,845 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateLine@4de5ed7b for object net.sf.jasperreports.engine.fill.JRTemplateLine@56f7ce53
+2013-08-28 00:23:51,845 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateLine@4de5ed7b for object net.sf.jasperreports.engine.fill.JRTemplateLine@270ad7c0
+2013-08-28 00:23:51,845 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@213e2b4a for object net.sf.jasperreports.engine.fill.JRTemplateText@38da9246
+2013-08-28 00:23:51,847 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateLine@4de5ed7b for object net.sf.jasperreports.engine.fill.JRTemplateLine@15b94ed3
+2013-08-28 00:23:51,847 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@213e2b4a for object net.sf.jasperreports.engine.fill.JRTemplateText@38e609c9
+2013-08-28 00:23:51,847 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@213e2b4a for object net.sf.jasperreports.engine.fill.JRTemplateText@68c884e
+2013-08-28 00:23:51,849 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@213e2b4a for object net.sf.jasperreports.engine.fill.JRTemplateText@7448bc3d
+2013-08-28 00:23:51,849 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateLine@4de5ed7b for object net.sf.jasperreports.engine.fill.JRTemplateLine@533e846f
+2013-08-28 00:23:51,850 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@213e2b4a for object net.sf.jasperreports.engine.fill.JRTemplateText@2d68be1b
+2013-08-28 00:23:51,852 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@213e2b4a for object net.sf.jasperreports.engine.fill.JRTemplateText@3798f5e7
+2013-08-28 00:23:51,852 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateLine@4de5ed7b for object net.sf.jasperreports.engine.fill.JRTemplateLine@1b382d35
+2013-08-28 00:23:51,852 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@213e2b4a for object net.sf.jasperreports.engine.fill.JRTemplateText@5200089
+2013-08-28 00:23:51,854 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@213e2b4a for object net.sf.jasperreports.engine.fill.JRTemplateText@780324ff
+2013-08-28 00:23:51,854 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@213e2b4a for object net.sf.jasperreports.engine.fill.JRTemplateText@16721ee7
+2013-08-28 00:23:51,854 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@213e2b4a for object net.sf.jasperreports.engine.fill.JRTemplateText@1e4adb34
+2013-08-28 00:23:51,856 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@213e2b4a for object net.sf.jasperreports.engine.fill.JRTemplateText@447d4275
+2013-08-28 00:23:51,857 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@213e2b4a for object net.sf.jasperreports.engine.fill.JRTemplateText@7b963273
+2013-08-28 00:23:51,857 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateLine@4de5ed7b for object net.sf.jasperreports.engine.fill.JRTemplateLine@41ca5b68
+2013-08-28 00:23:51,859 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller:485 - Fill 1: column header at 318
+2013-08-28 00:23:51,861 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateRectangle@42ff87dc
+2013-08-28 00:23:51,862 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateLine@16309ee1
+2013-08-28 00:23:51,862 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateText@520ed128
+2013-08-28 00:23:51,862 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@520ed128 for object net.sf.jasperreports.engine.fill.JRTemplateText@4ac5c32e
+2013-08-28 00:23:51,863 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@520ed128 for object net.sf.jasperreports.engine.fill.JRTemplateText@7d91275b
+2013-08-28 00:23:51,863 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateLine@16309ee1 for object net.sf.jasperreports.engine.fill.JRTemplateLine@44af07c4
+2013-08-28 00:23:51,863 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller:731 - Fill 1: detail at 342
+2013-08-28 00:23:51,865 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateRectangle@3f26f816
+2013-08-28 00:23:51,867 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateLine@17698cbe
+2013-08-28 00:23:51,867 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateLine@17698cbe for object net.sf.jasperreports.engine.fill.JRTemplateLine@129719f4
+2013-08-28 00:23:51,867 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateText@7e28ebb4
+2013-08-28 00:23:51,868 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateText@308ab721
+2013-08-28 00:23:51,869 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@7e28ebb4 for object net.sf.jasperreports.engine.fill.JRTemplateText@62fcf06c
+2013-08-28 00:23:51,870 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller:731 - Fill 1: detail at 367
+2013-08-28 00:23:51,871 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller:731 - Fill 1: detail at 392
+2013-08-28 00:23:51,872 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller:1016 - Fill 1: page footer at 729
+2013-08-28 00:23:51,874 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateRectangle@7db81d4f
+2013-08-28 00:23:51,874 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateText@428c6e04
+2013-08-28 00:23:51,875 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateText@373968f1
+2013-08-28 00:23:51,875 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateLine@1a18c28a
+2013-08-28 00:23:51,875 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateLine@1a18c28a for object net.sf.jasperreports.engine.fill.JRTemplateLine@4f8bff68
+2013-08-28 00:23:51,878 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateText@702d2da4
+2013-08-28 00:23:51,878 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@702d2da4 for object net.sf.jasperreports.engine.fill.JRTemplateText@260fa385
+2013-08-28 00:23:51,878 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRBaseFiller:919 - Fill 1: ended
+2013-08-28 00:23:51,879 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillDataset:1161 - Fill 1: closing query executer
+2013-08-28 00:23:51,908 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRBaseFiller:348 - Fill 1: created for PedidoReport
+2013-08-28 00:23:51,909 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand:154 - Origin {reportName: null, groupName: null,bandType: BACKGROUND} for band 264575458
+2013-08-28 00:23:51,909 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand:154 - Origin {reportName: null, groupName: null,bandType: TITLE} for band 401554706
+2013-08-28 00:23:51,911 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand:154 - Origin {reportName: null, groupName: null,bandType: PAGE_HEADER} for band 1819586596
+2013-08-28 00:23:51,912 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand:154 - Origin {reportName: null, groupName: null,bandType: COLUMN_HEADER} for band 667713355
+2013-08-28 00:23:51,913 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand:154 - Origin {reportName: null, groupName: null,bandType: DETAIL} for band 387848211
+2013-08-28 00:23:51,913 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand:154 - Origin {reportName: null, groupName: null,bandType: COLUMN_FOOTER} for band 1739942874
+2013-08-28 00:23:51,914 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillBand:154 - Origin {reportName: null, groupName: null,bandType: PAGE_FOOTER} for band 1437150522
+2013-08-28 00:23:51,914 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller:135 - Filler 1 - pageHeight: 842, columnFooterOffsetY: 729, lastPageColumnFooterOffsetY: 822
+2013-08-28 00:23:51,915 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRBaseFiller:862 - Fill 1: filling report
+2013-08-28 00:23:51,915 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillDataset:1080 - Fill 1: Creating sql query executer
+2013-08-28 00:23:51,916 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.query.JRJdbcQueryExecuter:254 - SQL query string: SELECT S.DESCRICAO, S.GARANTIA, I.VALOR FROM SERVICO S,ITEMPEDIDO I WHERE I.IDSERVICO = S.IDSERVICO AND I.IDPEDIDO = ?
+2013-08-28 00:23:51,917 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.query.JRJdbcQueryExecuter:396 - Parameter #1 (IDPEDIDO of type java.lang.Long): 5
+2013-08-28 00:23:51,950 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRBaseFiller:1797 - Fill 1: adding page 1
+2013-08-28 00:23:51,951 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller:330 - Fill 1: title at 20
+2013-08-28 00:23:51,952 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateImage@500c05c2
+2013-08-28 00:23:51,953 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller:406 - Fill 1: page header at 128
+2013-08-28 00:23:51,953 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.SimpleTextLineWrapper:300 - creating element font infos cache of size 2000
+2013-08-28 00:23:51,959 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateRectangle@454e2c9c
+2013-08-28 00:23:51,959 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateText@f52d950
+2013-08-28 00:23:51,959 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateText@8391b0c
+2013-08-28 00:23:51,960 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@f52d950 for object net.sf.jasperreports.engine.fill.JRTemplateText@5d1eb50b
+2013-08-28 00:23:51,960 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateText@b0014f0
+2013-08-28 00:23:51,960 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateLine@325e9e34
+2013-08-28 00:23:51,960 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateText@61e481c1
+2013-08-28 00:23:51,961 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@61e481c1 for object net.sf.jasperreports.engine.fill.JRTemplateText@6102d81c
+2013-08-28 00:23:51,961 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@61e481c1 for object net.sf.jasperreports.engine.fill.JRTemplateText@1ba4806
+2013-08-28 00:23:51,961 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@61e481c1 for object net.sf.jasperreports.engine.fill.JRTemplateText@6cce82cc
+2013-08-28 00:23:51,963 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@61e481c1 for object net.sf.jasperreports.engine.fill.JRTemplateText@69ed56e2
+2013-08-28 00:23:51,963 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@61e481c1 for object net.sf.jasperreports.engine.fill.JRTemplateText@5ce345c2
+2013-08-28 00:23:51,964 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@61e481c1 for object net.sf.jasperreports.engine.fill.JRTemplateText@4cf8f332
+2013-08-28 00:23:51,966 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@61e481c1 for object net.sf.jasperreports.engine.fill.JRTemplateText@6c267f18
+2013-08-28 00:23:51,966 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateLine@325e9e34 for object net.sf.jasperreports.engine.fill.JRTemplateLine@53623820
+2013-08-28 00:23:51,966 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateLine@325e9e34 for object net.sf.jasperreports.engine.fill.JRTemplateLine@5552e7a4
+2013-08-28 00:23:51,968 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@61e481c1 for object net.sf.jasperreports.engine.fill.JRTemplateText@35e5ebbf
+2013-08-28 00:23:51,969 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateLine@325e9e34 for object net.sf.jasperreports.engine.fill.JRTemplateLine@9d8643e
+2013-08-28 00:23:51,969 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@61e481c1 for object net.sf.jasperreports.engine.fill.JRTemplateText@5d9d277e
+2013-08-28 00:23:51,971 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@61e481c1 for object net.sf.jasperreports.engine.fill.JRTemplateText@788bf135
+2013-08-28 00:23:51,971 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@61e481c1 for object net.sf.jasperreports.engine.fill.JRTemplateText@2b890c67
+2013-08-28 00:23:51,971 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateLine@325e9e34 for object net.sf.jasperreports.engine.fill.JRTemplateLine@328d5485
+2013-08-28 00:23:51,973 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@61e481c1 for object net.sf.jasperreports.engine.fill.JRTemplateText@5ca801b0
+2013-08-28 00:23:51,974 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@61e481c1 for object net.sf.jasperreports.engine.fill.JRTemplateText@1a06f956
+2013-08-28 00:23:51,974 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateLine@325e9e34 for object net.sf.jasperreports.engine.fill.JRTemplateLine@3fdb8a73
+2013-08-28 00:23:51,976 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@61e481c1 for object net.sf.jasperreports.engine.fill.JRTemplateText@665ea4c5
+2013-08-28 00:23:51,976 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@61e481c1 for object net.sf.jasperreports.engine.fill.JRTemplateText@4f93b604
+2013-08-28 00:23:51,976 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@61e481c1 for object net.sf.jasperreports.engine.fill.JRTemplateText@6a92e96c
+2013-08-28 00:23:51,978 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@61e481c1 for object net.sf.jasperreports.engine.fill.JRTemplateText@531ae81d
+2013-08-28 00:23:51,978 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@61e481c1 for object net.sf.jasperreports.engine.fill.JRTemplateText@b7cf28b
+2013-08-28 00:23:51,979 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@61e481c1 for object net.sf.jasperreports.engine.fill.JRTemplateText@38178991
+2013-08-28 00:23:51,981 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateLine@325e9e34 for object net.sf.jasperreports.engine.fill.JRTemplateLine@1148ab5c
+2013-08-28 00:23:51,981 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller:485 - Fill 1: column header at 318
+2013-08-28 00:23:51,982 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateRectangle@39ea2de1
+2013-08-28 00:23:51,982 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateLine@3d6a2c7b
+2013-08-28 00:23:51,983 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateText@58e5ebd
+2013-08-28 00:23:51,984 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@58e5ebd for object net.sf.jasperreports.engine.fill.JRTemplateText@45edcd24
+2013-08-28 00:23:51,984 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@58e5ebd for object net.sf.jasperreports.engine.fill.JRTemplateText@7f371a59
+2013-08-28 00:23:51,986 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateLine@3d6a2c7b for object net.sf.jasperreports.engine.fill.JRTemplateLine@7aa30a4e
+2013-08-28 00:23:51,986 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller:731 - Fill 1: detail at 342
+2013-08-28 00:23:51,987 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateRectangle@65f9c5c8
+2013-08-28 00:23:51,987 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateLine@712801c5
+2013-08-28 00:23:51,988 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateLine@712801c5 for object net.sf.jasperreports.engine.fill.JRTemplateLine@798c668c
+2013-08-28 00:23:51,988 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateText@70a0afab
+2013-08-28 00:23:51,989 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateText@456d3d51
+2013-08-28 00:23:51,989 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@70a0afab for object net.sf.jasperreports.engine.fill.JRTemplateText@6d4b473
+2013-08-28 00:23:51,990 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller:731 - Fill 1: detail at 367
+2013-08-28 00:23:51,991 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller:731 - Fill 1: detail at 392
+2013-08-28 00:23:51,992 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRVerticalFiller:1016 - Fill 1: page footer at 729
+2013-08-28 00:23:51,993 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateRectangle@7692ed85
+2013-08-28 00:23:51,993 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateText@2827f394
+2013-08-28 00:23:51,994 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateText@56e88e24
+2013-08-28 00:23:51,994 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateLine@3dcc0a0f
+2013-08-28 00:23:51,994 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateLine@3dcc0a0f for object net.sf.jasperreports.engine.fill.JRTemplateLine@1ea87e7b
+2013-08-28 00:23:51,995 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:85 - Added object net.sf.jasperreports.engine.fill.JRTemplateText@4807ccf6
+2013-08-28 00:23:51,995 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.util.DeduplicableRegistry:92 - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@4807ccf6 for object net.sf.jasperreports.engine.fill.JRTemplateText@78214f6b
+2013-08-28 00:23:51,995 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRBaseFiller:919 - Fill 1: ended
+2013-08-28 00:23:51,996 [AWT-EventQueue-0] DEBUG net.sf.jasperreports.engine.fill.JRFillDataset:1161 - Fill 1: closing query executer

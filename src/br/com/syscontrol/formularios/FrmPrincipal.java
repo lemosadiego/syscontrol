@@ -12,6 +12,7 @@
 package br.com.syscontrol.formularios;
 
 
+
 import br.com.syscontrol.controller.BuscaClienteCondominioAction;
 import br.com.syscontrol.controller.ClienteCondominioAction;
 import br.com.syscontrol.controller.ClienteEmpresaAction;
@@ -51,6 +52,7 @@ import br.com.syscontrol.model.ServicoDisponivelTableModel;
 import br.com.syscontrol.model.ServicoPedidoTableModel;
 import br.com.syscontrol.model.TipoCliente;
 import br.com.syscontrol.model.Usuario;
+import br.com.syscontrol.relatorios.PedidoReport;
 import java.awt.event.KeyEvent;
 import java.sql.Time;
 import java.text.ParseException;
@@ -2619,6 +2621,11 @@ public class FrmPrincipal extends javax.swing.JFrame implements Observer{
         });
 
         jButton8.setText("Imprimir Pedido");
+        jButton8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton8ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel19Layout = new javax.swing.GroupLayout(jPanel19);
         jPanel19.setLayout(jPanel19Layout);
@@ -2674,9 +2681,8 @@ public class FrmPrincipal extends javax.swing.JFrame implements Observer{
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jButton8, javax.swing.GroupLayout.DEFAULT_SIZE, 39, Short.MAX_VALUE)
-                    .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(btnVisualizaDadosCliente, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(txtNomeClientePedido, javax.swing.GroupLayout.DEFAULT_SIZE, 39, Short.MAX_VALUE)))
+                    .addComponent(btnVisualizaDadosCliente, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(txtNomeClientePedido, javax.swing.GroupLayout.DEFAULT_SIZE, 39, Short.MAX_VALUE))
                 .addGap(18, 18, 18)
                 .addComponent(jPanel20, javax.swing.GroupLayout.PREFERRED_SIZE, 419, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -5387,6 +5393,12 @@ ChangeListener listener2 = new ChangeListener() {
         
         
     }//GEN-LAST:event_btnVisualizaDadosClienteActionPerformed
+
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+        
+        new PedidoReport().gerarRelatorio(pedidoAction.getPedido());
+        
+    }//GEN-LAST:event_jButton8ActionPerformed
 
 
 

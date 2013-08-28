@@ -51,6 +51,7 @@ public class ClientePessoa implements Serializable {
     protected String cep;
     
     @Enumerated(EnumType.STRING)
+    @Column(name = "tipoCliente")
     protected TipoCliente tipoCliente;
     
     @Column(name = "nomecontato")
@@ -58,15 +59,18 @@ public class ClientePessoa implements Serializable {
     
     @Column(name = "telefonecontato")
     protected String telefoneContato;
+    
+    @Column(name = "email")
+    private String email;
 
    
     @OneToMany(targetEntity=OrdemServicoPadrao.class)
     @JoinColumn(name="idCliente", updatable = false)	
-    protected List<OrdemServicoPadrao> listaOrdensServicos;
+    private List<OrdemServicoPadrao> listaOrdensServicos;
 
     @OneToMany(targetEntity=Pedido.class)
     @JoinColumn(name="idCliente", updatable = false)	
-    protected List<Pedido> listaPedidos;
+    private List<Pedido> listaPedidos;
     
     /**
      * @return the id
@@ -211,10 +215,64 @@ public class ClientePessoa implements Serializable {
         this.tipoCliente = tipoCliente;
     }
 
+    /**
+     * @return the email
+     */
+    public String getEmail() {
+        return email;
+    }
+
+    /**
+     * @param email the email to set
+     */
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    /**
+     * @return the listaOrdensServicos
+     */
+    public List<OrdemServicoPadrao> getListaOrdensServicos() {
+        return listaOrdensServicos;
+    }
+
+    /**
+     * @param listaOrdensServicos the listaOrdensServicos to set
+     */
+    public void setListaOrdensServicos(List<OrdemServicoPadrao> listaOrdensServicos) {
+        this.listaOrdensServicos = listaOrdensServicos;
+    }
+
+    /**
+     * @return the listaPedidos
+     */
+    public List<Pedido> getListaPedidos() {
+        return listaPedidos;
+    }
+
+    /**
+     * @param listaPedidos the listaPedidos to set
+     */
+    public void setListaPedidos(List<Pedido> listaPedidos) {
+        this.listaPedidos = listaPedidos;
+    }
+
     @Override
     public int hashCode() {
-        int hash = 7;
-        hash = 17 * hash + (int) (this.idCliente ^ (this.idCliente >>> 32));
+        int hash = 3;
+        hash = 17 * hash + (this.idCliente != null ? this.idCliente.hashCode() : 0);
+        hash = 17 * hash + (this.nome != null ? this.nome.hashCode() : 0);
+        hash = 17 * hash + (this.endereco != null ? this.endereco.hashCode() : 0);
+        hash = 17 * hash + (this.bairro != null ? this.bairro.hashCode() : 0);
+        hash = 17 * hash + (this.cidade != null ? this.cidade.hashCode() : 0);
+        hash = 17 * hash + (this.uf != null ? this.uf.hashCode() : 0);
+        hash = 17 * hash + (this.cep != null ? this.cep.hashCode() : 0);
+        hash = 17 * hash + (this.tipoCliente != null ? this.tipoCliente.hashCode() : 0);
+        hash = 17 * hash + (this.nomeContato != null ? this.nomeContato.hashCode() : 0);
+        hash = 17 * hash + (this.telefoneContato != null ? this.telefoneContato.hashCode() : 0);
+        hash = 17 * hash + (this.email != null ? this.email.hashCode() : 0);
+        hash = 17 * hash + (this.listaOrdensServicos != null ? this.listaOrdensServicos.hashCode() : 0);
+        hash = 17 * hash + (this.listaPedidos != null ? this.listaPedidos.hashCode() : 0);
         return hash;
     }
 
@@ -227,7 +285,7 @@ public class ClientePessoa implements Serializable {
             return false;
         }
         final ClientePessoa other = (ClientePessoa) obj;
-        if (this.idCliente != other.idCliente) {
+        if (this.idCliente != other.idCliente && (this.idCliente == null || !this.idCliente.equals(other.idCliente))) {
             return false;
         }
         if ((this.nome == null) ? (other.nome != null) : !this.nome.equals(other.nome)) {
@@ -257,11 +315,16 @@ public class ClientePessoa implements Serializable {
         if ((this.telefoneContato == null) ? (other.telefoneContato != null) : !this.telefoneContato.equals(other.telefoneContato)) {
             return false;
         }
+        if ((this.email == null) ? (other.email != null) : !this.email.equals(other.email)) {
+            return false;
+        }
+        if (this.listaOrdensServicos != other.listaOrdensServicos && (this.listaOrdensServicos == null || !this.listaOrdensServicos.equals(other.listaOrdensServicos))) {
+            return false;
+        }
+        if (this.listaPedidos != other.listaPedidos && (this.listaPedidos == null || !this.listaPedidos.equals(other.listaPedidos))) {
+            return false;
+        }
         return true;
     }
-
-    @Override
-    public String toString() {
-        return "Cliente{" + "id=" + idCliente + ", nome=" + nome + ", endereco=" + endereco + ", bairro=" + bairro + ", cidade=" + cidade + ", uf=" + uf + ", cep=" + cep + ", tipoCliente=" + tipoCliente + ", nomeContato=" + nomeContato + ", telefoneContato=" + telefoneContato + '}';
-    }
+    
 }

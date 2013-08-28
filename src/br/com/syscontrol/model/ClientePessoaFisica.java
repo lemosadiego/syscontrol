@@ -24,7 +24,6 @@ public class ClientePessoaFisica extends ClientePessoa {
     private String telefoneCelular;
     private String telefoneFax;
     private String contato;    
-    private String email;
 
     /**
      * @return the nome
@@ -125,21 +124,7 @@ public class ClientePessoaFisica extends ClientePessoa {
      */
     public void setContato(String contato) {
         this.contato = contato;
-    }
-   
-    /**
-     * @return the email
-     */
-    public String getEmail() {
-        return email;
-    }
-
-    /**
-     * @param email the email to set
-     */
-    public void setEmail(String email) {
-        this.email = email;
-    }
+    }  
 
     /**
      * @return the telefoneFax

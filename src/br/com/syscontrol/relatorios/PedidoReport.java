@@ -1,6 +1,10 @@
+package br.com.syscontrol.relatorios;
 
-import br.com.syscontrol.dao.PedidoDao;
+
+import br.com.syscontrol.model.ClientePessoaFisica;
+import br.com.syscontrol.model.ClientePessoaJuridica;
 import br.com.syscontrol.model.Pedido;
+import br.com.syscontrol.model.TipoCliente;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.HashMap;
@@ -23,11 +27,19 @@ import net.sf.jasperreports.view.JasperViewer;
  * @author Diego
  */
 public class PedidoReport {
-
-    public static void main(String [] args){
+//
+//    public static void main(String [] args){
+//        
+//    } 
+    
+    public PedidoReport(){
+        
+    }
+    
+    public void gerarRelatorio(Pedido pedido){
         try {
-            PedidoDao dao = new PedidoDao();
-            Pedido pedido = dao.buscarPorId(1L);
+            
+            
 //            List<ItemPedido> servicos = dao.buscarPorId(1L).getItensPedido();
 //            
 //            JRDataSource dataSource = new JRBeanCollectionDataSource(servicos);
@@ -40,8 +52,32 @@ public class PedidoReport {
             parametros.put("ENDERECO", pedido.getCliente().getEndereco());
             parametros.put("BAIRRO", pedido.getCliente().getBairro());
             parametros.put("CIDADE", pedido.getCliente().getCidade());
-            parametros.put("TELEFONERESIDENCIAL", pedido.getCliente().getTelefoneContato());
-            parametros.put("TELEFONECELULAR", pedido.getCliente().getTelefoneContato());           
+            parametros.put("UF", pedido.getCliente().getUf());
+            parametros.put("CEP", pedido.getCliente().getCep());
+            
+            if(pedido.getCliente().getTipoCliente().equals(TipoCliente.FISICA)){
+                ClientePessoaFisica clientePessoaFisica = (ClientePessoaFisica) pedido.getCliente();
+                parametros.put("DOCUMENTO", clientePessoaFisica.getCpf());
+                
+                if(clientePessoaFisica.getTelefoneCelular()== null){
+                     parametros.put("TELEFONE", clientePessoaFisica.getTelefoneResidencial());
+                }else{
+                    parametros.put("TELEFONE", clientePessoaFisica.getTelefoneCelular());
+                }               
+                
+            }else{
+                ClientePessoaJuridica clientePessoaJuridica = (ClientePessoaJuridica) pedido.getCliente();
+                parametros.put("DOCUMENTO", clientePessoaJuridica.getCnpj());
+                
+                if(clientePessoaJuridica.getTelefoneComercial()== null){
+                     parametros.put("TELEFONE", clientePessoaJuridica.getTelefoneResponsavel());
+                }else{
+                    parametros.put("TELEFONE", clientePessoaJuridica.getTelefoneComercial());
+                }               
+            }           
+            
+            parametros.put("EMAIL", pedido.getCliente().getEmail());
+            
             //parametros.put("IDPEDIDO", pedido.getIdPedido());
             Connection conexao = ConnectionFactory.getConnection(); 
             //JasperPrint print = JasperFillManager.fillReport("reports/PedidoReport.jasper", parametros, dataSource); conexao.close();
@@ -63,7 +99,8 @@ public class PedidoReport {
         } catch (SQLException ex) {
             Logger.getLogger(PedidoReport.class.getName()).log(Level.SEVERE, null, ex);
         } 
-    } 
+    }
+    
 }
     
     

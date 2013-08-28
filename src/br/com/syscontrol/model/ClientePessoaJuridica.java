@@ -23,7 +23,7 @@ public class ClientePessoaJuridica extends ClientePessoa {
     private String telefoneFax;
     private String nomeResponsavel;
     private String telefoneResponsavel;    
-    private String email;
+    
 
     
     /**
@@ -123,21 +123,6 @@ public class ClientePessoaJuridica extends ClientePessoa {
      */
     public void setTelefoneResponsavel(String telefoneResponsavel) {
         this.telefoneResponsavel = telefoneResponsavel;
-    }
-
-  
-    /**
-     * @return the email
-     */
-    public String getEmail() {
-        return email;
-    }
-
-    /**
-     * @param email the email to set
-     */
-    public void setEmail(String email) {
-        this.email = email;
     }
 
 }

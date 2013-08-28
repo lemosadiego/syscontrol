@@ -3217,10 +3217,8 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
                           <Component id="jButton8" pref="39" max="32767" attributes="0"/>
-                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="btnVisualizaDadosCliente" max="32767" attributes="0"/>
-                              <Component id="txtNomeClientePedido" pref="39" max="32767" attributes="0"/>
-                          </Group>
+                          <Component id="btnVisualizaDadosCliente" max="32767" attributes="0"/>
+                          <Component id="txtNomeClientePedido" pref="39" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="jPanel20" min="-2" pref="419" max="-2" attributes="0"/>
@@ -4105,6 +4103,9 @@
               <Properties>
                 <Property name="text" type="java.lang.String" value="Imprimir Pedido"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton8ActionPerformed"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>
