@@ -54,6 +54,8 @@ public class PedidoReport {
             parametros.put("CIDADE", pedido.getCliente().getCidade());
             parametros.put("UF", pedido.getCliente().getUf());
             parametros.put("CEP", pedido.getCliente().getCep());
+            parametros.put("TOTALPEDIDO", pedido.getValorPedido().toString());
+            
             
             if(pedido.getCliente().getTipoCliente().equals(TipoCliente.FISICA)){
                 ClientePessoaFisica clientePessoaFisica = (ClientePessoaFisica) pedido.getCliente();

@@ -6,6 +6,7 @@
             <name>SysControl</name>
             <explicit-platform explicit-source-supported="true"/>
             <source-roots>
+                <root id="src.reports.dir"/>
                 <root id="src.dir"/>
             </source-roots>
             <test-roots>

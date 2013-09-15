@@ -21,7 +21,7 @@
 	<parameter name="EMAIL" class="java.lang.String"/>
 	<parameter name="TELEFONE" class="java.lang.String"/>
 	<parameter name="CONTATO" class="java.lang.String"/>
-	<parameter name="TOTAL" class="java.lang.String"/>
+	<parameter name="TOTALPEDIDO" class="java.lang.String"/>
 	<queryString>
 		<![CDATA[SELECT S.DESCRICAO, S.GARANTIA, I.VALOR FROM SERVICO S,ITEMPEDIDO I WHERE I.IDSERVICO = S.IDSERVICO AND I.IDPEDIDO = $P{IDPEDIDO}]]>
 	</queryString>
@@ -327,13 +327,6 @@
 				</textElement>
 				<text><![CDATA[VALOR TOTAL:]]></text>
 			</staticText>
-			<textField pattern="¤ #,##0.00">
-				<reportElement uuid="0dd4d915-cd63-4516-a894-13716a6d1a95" x="431" y="5" width="115" height="20"/>
-				<textElement verticalAlignment="Middle">
-					<font fontName="Times New Roman" size="14"/>
-				</textElement>
-				<textFieldExpression><![CDATA[$P{TOTAL}]]></textFieldExpression>
-			</textField>
 			<line>
 				<reportElement uuid="0fb10900-287e-411b-a649-d0a289b6e7a5" x="12" y="68" width="169" height="1"/>
 			</line>
@@ -354,6 +347,13 @@
 				</textElement>
 				<text><![CDATA[VENDEDOR]]></text>
 			</staticText>
+			<textField evaluationTime="Report" pattern="¤ #,##0.00" isBlankWhenNull="true">
+				<reportElement uuid="10f18b0d-1e0b-4b65-8589-18d07a857514" x="432" y="5" width="100" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{TOTALPEDIDO}]]></textFieldExpression>
+			</textField>
 		</band>
 	</pageFooter>
 	<summary>
